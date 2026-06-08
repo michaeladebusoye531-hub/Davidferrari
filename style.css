@@ -102,7 +102,7 @@ body {
  }
  .logo-section{
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
     top: 30px;
  }
@@ -122,3 +122,54 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
  }
+    .verify-box{
+      width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 12px;
+    padding: 100px;
+    justify-content: space-between;
+    font-size: 14.5px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+    .verify-box p{
+      margin-bottom: 0px;
+       font-size: 14.5px;
+    text-align: center;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 20px;
+    }
+   .verify-btn {
+      width: 220px;
+      height: 45px;
+      border: none;
+      border-radius: 25px;
+      background:white;
+      color: black;
+      font-weight: 800;
+      justify-content: space-between;
+   }
+   .verify-box a{
+      color:white;
+      text-decoration: underline;
+      font-weight: 600;
+      padding: 15px;
+   }
+   .underline-text{
+      text-decoration: underline;
+   }
+   .email-icon{
+      text-align: center;
+      margin-bottom: 20px;
+   }
+   .email-icon i{
+      font-size: 80px;
+      color: white;
+   }
+   
