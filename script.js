@@ -53,3 +53,8 @@ const dashboard = document.getElementById("dashboard");
 const avatar = document.getElementById("avatar");
 const heroText = document.getElementById("herotext");
 const welcomeText = document.getElementById("welcomeText");
+if (email === "admin@gmail.com" && password === "admin123") {
+    window.location.href = "dashboard.html";
+} else {
+    alert("Invalid email or password. Please try again.");
+}   
